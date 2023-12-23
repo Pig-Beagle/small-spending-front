@@ -1,3 +1,5 @@
-export default function Auth() {
+const LoginPage = () => {
   return <div>login</div>
 }
+
+export default LoginPage
