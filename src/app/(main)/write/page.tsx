@@ -1,6 +1,6 @@
 'use client'
 
-import WriteContainer from '@/container/(main)/write'
+import WriteContainer from '@/containers/(main)/write'
 
 const WritePage = () => <WriteContainer />
 

@@ -1,4 +1,4 @@
-import ProfileContainer from '@/container/(main)/profile'
+import ProfileContainer from '@/containers/(main)/profile'
 
 const ProfilePage = () => <ProfileContainer />
 
