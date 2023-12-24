@@ -1,8 +1,10 @@
 'use client'
 
-import { Post } from '@/types'
 import { useRef, useState } from 'react'
 import InfiniteScroll from 'react-infinite-scroller'
+
+import PostItem from '@/components/post/PostItem'
+import { Post } from '@/types'
 
 interface Props {
   initialList: Post[]
@@ -38,7 +40,7 @@ const PostsContainer = ({ initialList, fetchList }: Props) => {
   }
 
   return (
-    <div>
+    <>
       <InfiniteScroll
         pageStart={1}
         hasMore={!isEnd.current}
@@ -47,12 +49,10 @@ const PostsContainer = ({ initialList, fetchList }: Props) => {
         element="ul"
       >
         {items.map((item) => (
-          <div key={item.no} className="h-96">
-            {item.amount}
-          </div>
+          <PostItem key={item.no} item={item} />
         ))}
       </InfiniteScroll>
-    </div>
+    </>
   )
 }
 
