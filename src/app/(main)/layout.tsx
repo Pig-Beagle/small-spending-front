@@ -16,7 +16,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html>
       <body className={inter.className}>
-        <div className="flex">
+        <div>
           <AppHeader />
           <Appbar />
           <MainSection>{children}</MainSection>
