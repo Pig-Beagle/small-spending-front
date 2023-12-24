@@ -5,7 +5,7 @@ const AppHeader = () => {
   return (
     <header
       className={cx(
-        'absolute top-0 left-0 flex items-center justify-between w-full h-14 p-4 bg-white border-b',
+        'fixed top-0 left-0 flex items-center justify-between w-full h-14 p-4 bg-white border-b',
         'lg:hidden'
       )}
     >

@@ -9,8 +9,8 @@ const Sidebar = () => {
   return (
     <aside
       className={cx(
-        'absolute bottom-0 flex justify-around w-full h-14 px-4 border-t bg-white',
-        'lg:static lg:flex-col lg:justify-between lg:h-screen lg:border-t-0 lg:border-r lg:w-64 lg:p-4'
+        'fixed left-0 bottom-0 flex justify-around w-screen h-14 px-4 border-t bg-white',
+        'lg:flex-col lg:justify-between lg:h-screen lg:border-t-0 lg:border-r lg:w-64 lg:p-4'
       )}
     >
       <nav className="w-full">
