@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 import { Noto_Sans_KR } from 'next/font/google'
 import '../globals.css'
-import Appbar from '@/components/AppUI/Appbar'
-import MainSection from '@/components/AppUI/MainSection'
-import AppHeader from '@/components/AppUI/AppHeader'
+import Appbar from '@/components/app-ui/Appbar'
+import MainSection from '@/components/app-ui/MainSection'
+import AppHeader from '@/components/app-ui/AppHeader'
 
 const inter = Noto_Sans_KR({ subsets: ['latin'] })
 

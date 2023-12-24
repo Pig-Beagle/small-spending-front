@@ -1,5 +1,5 @@
-const ProfilePage = () => {
-  return <div>프로필</div>
-}
+import ProfileContainer from '@/container/(main)/profile'
+
+const ProfilePage = () => <ProfileContainer />
 
 export default ProfilePage

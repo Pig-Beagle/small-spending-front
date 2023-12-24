@@ -1,3 +1,5 @@
-export default function Home() {
-  return <div>main</div>
-}
+import PostsContainer from '@/container/(main)/posts'
+
+const Main = () => <PostsContainer />
+
+export default Main
