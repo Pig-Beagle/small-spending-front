@@ -11,8 +11,6 @@ const getPostList = async (page: number = 1) => {
 
   const { data: list } = await res.json()
 
-  console.log(list)
-
   return list
 }
 
